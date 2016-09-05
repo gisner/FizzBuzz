@@ -1,6 +1,6 @@
 #Fizz Buzz for n numbers
 import sys
-n=100
+n=10
 try:
     print("n value given: {}".format(sys.argv[1]))
     n=int(sys.argv[1])
