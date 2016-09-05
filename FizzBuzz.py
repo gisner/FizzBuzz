@@ -1,10 +1,6 @@
 #Fizz Buzz for n numbers
 import sys
-<<<<<<< HEAD
 n=30
-=======
-n=20
->>>>>>> 2d15a712f51c625e80cee0c4efe467343d7fc6a3
 try:
     print("n value given: {}".format(sys.argv[1]))
     n=int(sys.argv[1])
