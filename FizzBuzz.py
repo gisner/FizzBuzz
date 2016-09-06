@@ -6,9 +6,9 @@ try:
     n=int(sys.argv[1])
 except (IndexError,ValueError):  
     try:
-        n=int(input("n is improper/non-numeric,Enter a numeric value for n: "))
+        n=int(input("n is invalid/non-numeric,Enter a numeric value for n: "))
     except ValueError:
-        print("Again n is improper/non-numeric. Default value is taken: ",n)
+        print("Again n is invalid/non-numeric. Default value is taken: ",n)
 for i in range(1,n+1):
     if i%15==0:
         print("fizzbuzz")
